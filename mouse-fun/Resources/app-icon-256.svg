@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.3"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <!-- Background with rounded corners -->
+    <rect width="256" height="256" rx="57.6" fill="url(#bgGrad)"/>
+    
+    <!-- Mouse cursor with shadow -->
+    <g filter="url(#shadow)">
+        <path d="M87.5 62.5 L87.5 187.5 L137.5 150 L162.5 200 L187.5 187.5 L162.5 137.5 L200 137.5 Z" 
+              fill="white" stroke="none"/>
+    </g>
+    
+    <!-- Decorative stars -->
+    <g opacity="0.9">
+        <path d="M175 75 L180 85 L190 85 L182.5 90 L186.25 100 L175 93.75 L163.75 100 L167.5 90 L160 85 L170 85 Z" 
+              fill="#FFD700"/>
+        <path d="M75 112.5 L78.75 120 L86.25 120 L80 123.75 L82.5 131.25 L75 126.25 L67.5 131.25 L70 123.75 L63.75 120 L71.25 120 Z" 
+              fill="#FFD700"/>
+        <path d="M187.5 150 L190.5 156.25 L196.75 156.25 L191.75 160 L193.75 166.25 L187.5 161.75 L181.25 166.25 L183.25 160 L178.25 156.25 L184.5 156.25 Z" 
+              fill="#FFD700"/>
+    </g>
+    
+    <!-- Glow effect -->
+    <circle cx="128" cy="100" r="50" fill="white" opacity="0.1"/>
+</svg>

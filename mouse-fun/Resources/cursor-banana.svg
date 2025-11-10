@@ -1,0 +1,6 @@
+<svg class="cursor-preview" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 4 Q6 6, 6 10 Q6 16, 10 22 Q12 26, 16 28 Q18 26, 18 24 Q18 20, 16 16 Q14 10, 12 6 Q11 4, 8 4 Z" fill="#FFD700" stroke="#FFA500" stroke-width="1"></path>
+                <ellipse cx="9" cy="6" rx="2" ry="3" fill="#8B4513"></ellipse>
+                <path d="M10 12 Q12 14, 13 16" stroke="#FFA500" stroke-width="0.5" fill="none"></path>
+                <path d="M11 18 Q13 20, 14 22" stroke="#FFA500" stroke-width="0.5" fill="none"></path>
+            </svg>

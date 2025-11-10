@@ -1,0 +1,16 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(-45 16 16)">
+    <!-- Crescent moon shape -->
+    <path d="M20 6 A10 10 0 0 1 20 26 A14 14 0 0 0 20 6 Z"
+          fill="#FFD700" stroke="#FFA500" stroke-width="1.5"/>
+    <!-- Moon craters -->
+    <circle cx="18" cy="12" r="2" fill="#FFB700" opacity="0.6"/>
+    <circle cx="16" cy="18" r="1.5" fill="#FFB700" opacity="0.6"/>
+    <circle cx="19" cy="22" r="1.8" fill="#FFB700" opacity="0.6"/>
+    <!-- Stars around moon -->
+    <circle cx="8" cy="8" r="1" fill="#FFFFFF"/>
+    <circle cx="26" cy="10" r="0.8" fill="#FFFFFF"/>
+    <circle cx="10" cy="26" r="0.8" fill="#FFFFFF"/>
+    <circle cx="28" cy="24" r="1" fill="#FFFFFF"/>
+  </g>
+</svg>

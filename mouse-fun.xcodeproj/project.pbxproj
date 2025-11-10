@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B98F4B692EBDB55500A9F1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98F4B512EBDB55400A9F1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B98F4B582EBDB55400A9F1CB;
+			remoteInfo = "mouse-fun";
+		};
+		B98F4B732EBDB55500A9F1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98F4B512EBDB55400A9F1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B98F4B582EBDB55400A9F1CB;
+			remoteInfo = "mouse-fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B98F4B592EBDB55400A9F1CB /* mouse-fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mouse-fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98F4B682EBDB55500A9F1CB /* mouse-funTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mouse-funTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98F4B722EBDB55500A9F1CB /* mouse-funUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mouse-funUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B98F4B5B2EBDB55400A9F1CB /* mouse-fun */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mouse-fun";
+			sourceTree = "<group>";
+		};
+		B98F4B6B2EBDB55500A9F1CB /* mouse-funTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mouse-funTests";
+			sourceTree = "<group>";
+		};
+		B98F4B752EBDB55500A9F1CB /* mouse-funUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mouse-funUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B98F4B562EBDB55400A9F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B652EBDB55500A9F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B6F2EBDB55500A9F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B98F4B502EBDB55400A9F1CB = {
+			isa = PBXGroup;
+			children = (
+				B98F4B5B2EBDB55400A9F1CB /* mouse-fun */,
+				B98F4B6B2EBDB55500A9F1CB /* mouse-funTests */,
+				B98F4B752EBDB55500A9F1CB /* mouse-funUITests */,
+				B98F4B5A2EBDB55400A9F1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B98F4B5A2EBDB55400A9F1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98F4B592EBDB55400A9F1CB /* mouse-fun.app */,
+				B98F4B682EBDB55500A9F1CB /* mouse-funTests.xctest */,
+				B98F4B722EBDB55500A9F1CB /* mouse-funUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B98F4B582EBDB55400A9F1CB /* mouse-fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98F4B7C2EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-fun" */;
+			buildPhases = (
+				B98F4B552EBDB55400A9F1CB /* Sources */,
+				B98F4B562EBDB55400A9F1CB /* Frameworks */,
+				B98F4B572EBDB55400A9F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B98F4B5B2EBDB55400A9F1CB /* mouse-fun */,
+			);
+			name = "mouse-fun";
+			packageProductDependencies = (
+			);
+			productName = "mouse-fun";
+			productReference = B98F4B592EBDB55400A9F1CB /* mouse-fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B98F4B672EBDB55500A9F1CB /* mouse-funTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98F4B7F2EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-funTests" */;
+			buildPhases = (
+				B98F4B642EBDB55500A9F1CB /* Sources */,
+				B98F4B652EBDB55500A9F1CB /* Frameworks */,
+				B98F4B662EBDB55500A9F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B98F4B6A2EBDB55500A9F1CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B98F4B6B2EBDB55500A9F1CB /* mouse-funTests */,
+			);
+			name = "mouse-funTests";
+			packageProductDependencies = (
+			);
+			productName = "mouse-funTests";
+			productReference = B98F4B682EBDB55500A9F1CB /* mouse-funTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B98F4B712EBDB55500A9F1CB /* mouse-funUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98F4B822EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-funUITests" */;
+			buildPhases = (
+				B98F4B6E2EBDB55500A9F1CB /* Sources */,
+				B98F4B6F2EBDB55500A9F1CB /* Frameworks */,
+				B98F4B702EBDB55500A9F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B98F4B742EBDB55500A9F1CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B98F4B752EBDB55500A9F1CB /* mouse-funUITests */,
+			);
+			name = "mouse-funUITests";
+			packageProductDependencies = (
+			);
+			productName = "mouse-funUITests";
+			productReference = B98F4B722EBDB55500A9F1CB /* mouse-funUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B98F4B512EBDB55400A9F1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					B98F4B582EBDB55400A9F1CB = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					B98F4B672EBDB55500A9F1CB = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = B98F4B582EBDB55400A9F1CB;
+					};
+					B98F4B712EBDB55500A9F1CB = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = B98F4B582EBDB55400A9F1CB;
+					};
+				};
+			};
+			buildConfigurationList = B98F4B542EBDB55400A9F1CB /* Build configuration list for PBXProject "mouse-fun" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B98F4B502EBDB55400A9F1CB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B98F4B5A2EBDB55400A9F1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98F4B582EBDB55400A9F1CB /* mouse-fun */,
+				B98F4B672EBDB55500A9F1CB /* mouse-funTests */,
+				B98F4B712EBDB55500A9F1CB /* mouse-funUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B98F4B572EBDB55400A9F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B662EBDB55500A9F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B702EBDB55500A9F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B98F4B552EBDB55400A9F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B642EBDB55500A9F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98F4B6E2EBDB55500A9F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B98F4B6A2EBDB55500A9F1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B98F4B582EBDB55400A9F1CB /* mouse-fun */;
+			targetProxy = B98F4B692EBDB55500A9F1CB /* PBXContainerItemProxy */;
+		};
+		B98F4B742EBDB55500A9F1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B98F4B582EBDB55400A9F1CB /* mouse-fun */;
+			targetProxy = B98F4B732EBDB55500A9F1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B98F4B7A2EBDB55500A9F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B98F4B7B2EBDB55500A9F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B98F4B7D2EBDB55500A9F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B98F4B7E2EBDB55500A9F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B98F4B802EBDB55500A9F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-funTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mouse-fun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mouse-fun";
+			};
+			name = Debug;
+		};
+		B98F4B812EBDB55500A9F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-funTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mouse-fun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mouse-fun";
+			};
+			name = Release;
+		};
+		B98F4B832EBDB55500A9F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-funUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mouse-fun";
+			};
+			name = Debug;
+		};
+		B98F4B842EBDB55500A9F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "liliang-cn.mouse-funUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "mouse-fun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B98F4B542EBDB55400A9F1CB /* Build configuration list for PBXProject "mouse-fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F4B7A2EBDB55500A9F1CB /* Debug */,
+				B98F4B7B2EBDB55500A9F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98F4B7C2EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F4B7D2EBDB55500A9F1CB /* Debug */,
+				B98F4B7E2EBDB55500A9F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98F4B7F2EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-funTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F4B802EBDB55500A9F1CB /* Debug */,
+				B98F4B812EBDB55500A9F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98F4B822EBDB55500A9F1CB /* Build configuration list for PBXNativeTarget "mouse-funUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98F4B832EBDB55500A9F1CB /* Debug */,
+				B98F4B842EBDB55500A9F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B98F4B512EBDB55400A9F1CB /* Project object */;
+}

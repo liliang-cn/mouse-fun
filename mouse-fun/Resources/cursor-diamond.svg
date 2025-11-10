@@ -1,0 +1,7 @@
+<svg class="cursor-preview" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 6 L10 12 L6 12 L16 26 L26 12 L22 12 Z" fill="#00D9FF" stroke="#0099CC" stroke-width="1" opacity="0.9"></path>
+                <path d="M16 6 L10 12 L16 18 Z" fill="#66E5FF"></path>
+                <path d="M16 6 L22 12 L16 18 Z" fill="#00BFFF"></path>
+                <path d="M16 18 L10 12 L6 12 L16 26 Z" fill="#0099CC"></path>
+                <path d="M16 18 L22 12 L26 12 L16 26 Z" fill="#0077AA"></path>
+            </svg>

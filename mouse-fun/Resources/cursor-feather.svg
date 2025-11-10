@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(-45 16 16)">
+    <!-- Feather shaft (quill) -->
+    <path d="M16 6 L16 28" stroke="#8B7355" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Main feather body -->
+    <path d="M16 6 Q20 10, 20 16 Q20 22, 17 28 Q15 26, 15 22 Q15 16, 12 10 Q13 8, 16 6"
+          fill="#E8F4F8" stroke="#5DADE2" stroke-width="1.2" opacity="0.9"/>
+
+    <!-- Feather barbs (left side) -->
+    <path d="M16 10 L11 12" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 13 L10 15" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 16 L9 18" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 19 L10 21" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 22 L11 24" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 25 L13 26" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+
+    <!-- Feather barbs (right side) -->
+    <path d="M16 10 L21 12" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 13 L22 15" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 16 L23 18" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 19 L22 21" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 22 L21 24" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+    <path d="M16 25 L19 26" stroke="#5DADE2" stroke-width="1" opacity="0.7"/>
+
+    <!-- Highlight for depth -->
+    <path d="M16 8 Q17 12, 17 16 Q17 20, 16 24"
+          stroke="#FFFFFF" stroke-width="0.8" opacity="0.5" fill="none"/>
+  </g>
+</svg>
