@@ -36,10 +36,11 @@ class CursorOverlayWindow: NSWindow {
             defer: false
         )
 
-        // Window configuration - must be above everything
+        // Window configuration - must be above EVERYTHING including Dock
         self.isOpaque = false
         self.backgroundColor = .clear
-        self.level = NSWindow.Level(rawValue: Int(CGWindowLevelForKey(.maximumWindow)) + 1)
+        // Use the highest possible window level to be above Dock
+        self.level = NSWindow.Level(rawValue: Int(CGWindowLevelForKey(.cursorWindow)))
         self.ignoresMouseEvents = true  // Pass through all clicks
         self.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .stationary, .ignoresCycle]
         self.hasShadow = false
@@ -77,6 +78,11 @@ class CursorOverlayWindow: NSWindow {
         )
 
         self.setFrameOrigin(windowOrigin)
+
+        // Aggressively hide system cursor on every position update
+        // This helps combat Dock and menu bar showing the cursor
+        CGDisplayHideCursor(CGMainDisplayID())
+        NSCursor.hide()
     }
 
     func setCursorImage(_ image: NSImage, hotSpot: NSPoint) {
@@ -144,6 +150,9 @@ class CursorManager {
     // Overlay window for custom cursor
     private var overlayWindow: CursorOverlayWindow?
 
+    // Timer to continuously hide system cursor
+    private var cursorHideTimer: Timer?
+
     private init() {}
 
     deinit {
@@ -151,6 +160,10 @@ class CursorManager {
     }
 
     private func cleanup() {
+        // Stop hide timer
+        cursorHideTimer?.invalidate()
+        cursorHideTimer = nil
+
         overlayWindow?.orderOut(nil)
         overlayWindow = nil
 
@@ -250,6 +263,18 @@ class CursorManager {
         // Now hide the cursor - this will work even in background
         CGDisplayHideCursor(CGMainDisplayID())
         NSCursor.hide()
+
+        // Start aggressive timer to continuously hide system cursor
+        // This is needed because system menus and some apps force cursor to show
+        cursorHideTimer?.invalidate()
+        cursorHideTimer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { [weak self] _ in
+            guard self?.isCustomCursorActive == true else { return }
+            CGDisplayHideCursor(CGMainDisplayID())
+            NSCursor.hide()
+        }
+        if let timer = cursorHideTimer {
+            RunLoop.current.add(timer, forMode: .common)
+        }
 
         // Create overlay window if needed
         if overlayWindow == nil {
